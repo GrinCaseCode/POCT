@@ -75,7 +75,6 @@ function hasScrolled() {
 
 	$('.easyzoom').easyZoom();
 
-
 	{
 		if ($(window).width() < 992) { 
 			$(".footer__title").click(function() {
@@ -84,7 +83,6 @@ function hasScrolled() {
 			});
 		}
 	}
-
 
 	//слайдер
 

@@ -1,0 +1,48 @@
+@font-face {
+	font-family: "Montserrat";
+	src: url('../fonts/Montserrat-bold/Montserrat-Bold.eot');
+	src: local('☺'), url('../fonts/Montserrat-bold/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-bold/Montserrat-Bold.ttf') format('truetype'), url('../fonts/Montserrat-bold/Montserrat-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat Extra Bold'), local('Montserrat-Extra-Bold'),
+	url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+	url('../fonts/Montserrat-ExtraBold.woff') format('woff'),
+	url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('../fonts/Montserrat-regular/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-regular/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-regular/Montserrat-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/montserrat-medium/Montserrat-Medium.eot');
+	src: local('☺'), url('../fonts/montserrat-medium/Montserrat-Medium.woff') format('woff'), url('../fonts/montserrat-medium/Montserrat-Medium.ttf') format('truetype'), url('../fonts/montserrat-medium/Montserrat-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat Semi Bold'), local('Montserrat-Semi-Bold'),
+	url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+	url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+	url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('Fira Sans Semi Bold'), local('Fira-Sans-Semi-Bold'),
+        url('../fonts/FiraSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/FiraSans-SemiBold.woff') format('woff'),
+        url('../fonts/FiraSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
