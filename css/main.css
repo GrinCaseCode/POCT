@@ -1118,3 +1118,8 @@ form {
 	top: 5px;
 	transform: rotate(-45deg); 
 }
+.fancybox-skin {
+    padding: 0 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
