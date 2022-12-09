@@ -39,6 +39,15 @@
 }
 @font-face {
     font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans.eot');
+    src: url('../fonts/FiraSans.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans.woff') format('woff'),
+    url('../fonts/FiraSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Fira Sans';
     src: local('Fira Sans Semi Bold'), local('Fira-Sans-Semi-Bold'),
         url('../fonts/FiraSans-SemiBold.woff2') format('woff2'),
         url('../fonts/FiraSans-SemiBold.woff') format('woff'),
