@@ -10,7 +10,7 @@ var navbarHeight = $('.header').outerHeight();
 $(window).scroll(function(event){
 	didScroll = true;
 });
-
+ 
 setInterval(function() {
 	if (didScroll) {
 		hasScrolled();

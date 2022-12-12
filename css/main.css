@@ -12,7 +12,7 @@
 } 
 *:-ms-input-placeholder {
 	color: #fff;
-	opacity: 1;
+	opacity: 1; 
 }
 
 body input:focus:required:invalid,
