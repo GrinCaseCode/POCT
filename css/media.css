@@ -7,6 +7,8 @@
 		margin-left: -15px;
 	}
 }
+
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	body {
@@ -15,7 +17,7 @@
 	}
 	.footer, 
 	.header {
-		font-size: 12px; 
+		font-size: 12px;  
 		line-height: 16px;
 	}  
 	.phone-main {
@@ -197,6 +199,8 @@
 		height: 432px;
 	}
 } 
+
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -521,6 +525,7 @@
 }
 
 
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.title-big {
@@ -700,14 +705,14 @@
 	}
 	.thanks__gif {
 		margin: 0 auto;
-		margin-top: 25px;
+		margin-top: 30px;
 	}
 	.thanks {
 		padding-top: 35px;
 		padding-bottom: 85px;
 	}
 	.thanks__stars {
-		top: -165px;
+		top: -165px; 
 		right: 12px;
 	}
 	.quote {
@@ -775,6 +780,8 @@
 	}
 }
 
+
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.title-big {
@@ -807,38 +814,7 @@
 	.page-about {
 		padding-top: 25px;
 	}
-	.item-contact__title {
-		font-size: 15px;
-	}
-	.block-form {
-		padding: 25px 20px;
-	}
-	.block-form__title {
-		font-size: 25px;
-		line-height: 45px;
-	}
-	.block-form__descr {
-		margin-bottom: 10px;
-	}
-	.block-form .btn-main {
-		margin-top: 30px;
-	}
-	.descr-thanks {
-		font-size: 20px;
-		line-height: 28px;
-		margin-bottom: 25px;
-		max-width: 310px;
-	}
-	.thanks__stars img {
-		max-width: 400px;
-	}
-	.thanks__stars {
-		top: -196px;
-	}
-	.thanks__gif {
-		width: 240px;
-		height: 240px;
-	}
+
 	.tabs-inner a::after, .tabs-inner a::before {
 		width: 16px;
 		height: 16px;
@@ -870,7 +846,41 @@
 	.page-about .quote::before {
 		left: -15px;
 	}
+
+		.item-contact__title {
+		font-size: 15px;
+	}
+	.block-form {
+		padding: 25px 20px;
+	}
+	.block-form__title {
+		font-size: 25px;
+		line-height: 45px;
+	}
+	.block-form__descr {
+		margin-bottom: 10px;
+	}
+	.block-form .btn-main {
+		margin-top: 30px;
+	}
+	.descr-thanks {
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 25px;
+		max-width: 310px;
+	}
+	.thanks__stars img {
+		max-width: 400px;
+	}
+	.thanks__stars {
+		top: -196px;
+	}
+	.thanks__gif {
+		width: 240px;
+		height: 240px;
+	}
 }
+
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {

@@ -24,7 +24,7 @@
 </head>
 <body> 
 
-	<div class="wrapper"> 
+	<div class="wrapper">
 
 		<header class="header">
 			<div class="container">
@@ -52,7 +52,7 @@
 					</div>
 					<span class='sandwich'>
 						<span class='sw-topper'></span>
-						<span class='sw-bottom'></span>
+						<span class='sw-bottom'></span> 
 						<span class='sw-footer'></span>
 					</span>
 				</div>
@@ -96,71 +96,25 @@
 			</div>
 		</header>
 
-		<div class="container">
-			<ul class="breadcrumbs">
-				<li><a href="#">Главная</a></li>
-				<li>Контакты</li>
-			</ul>
-		</div>
-
-		<section class="page-contacts">
+		<section class="thanks">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-7">
-						<div class="row">
-							<div class="col-6">
-								<div class="item-contact">
-									<div class="item-contact__title">Адрес производства:</div>
-									<p>г. Краснодар, <br>пр-д Майский, 18/10</p>
-								</div>
-							</div>
-							<div class="col-6">
-								<div class="item-contact">
-									<div class="item-contact__title">Телефон:</div>
-									<p><a href="tel:+88001234567">8 (800) 123 45 67</a></p>
-								</div>
-							</div>
-							<div class="col-6">
-								<div class="item-contact">
-									<div class="item-contact__title">Режим работы:</div>
-									<p>пн-вс 08:00 - 20:00</p>
-								</div>
-							</div>
-							<div class="col-6">
-								<div class="item-contact">
-									<div class="item-contact__title">e-mail:</div>
-									<p><a href="mailto:info@rost-krd.ru">info@rost-krd.ru</a></p>
-								</div>
-							</div>
+					<div class="col-lg-5 col-md-6 thanks__left">
+						<div class="title-thanks">Спасибо!</div>
+						<div class="descr-thanks">Ваша заявка успешно отправлена</div>
+						<a href="/" class="btn-main">вернуться на главную</a>
+					</div>
+					<div class="col-lg-7 col-md-6 thanks__right">
+						<div class="thanks__gif">
+							<img src="img/thanks.gif" alt="alt">
 						</div>
-					</div> 
-					<div class="col-lg-5">
-						<div class="block-form">
-							<div class="block-form__title">Обратная связь</div>
-							<div class="block-form__descr">Заполните форму и наш специалист свяжется с вами в течение 15 минут</div>
-							<div class="item-form">
-								<input type="text" placeholder="Имя" required="required">
-							</div>
-							<div class="item-form">
-								<input type="email" placeholder="E-mail" required="required">
-							</div>
-							<div class="item-form">
-								<input type="text" placeholder="Сообщение" required="required">
-							</div>
-							<button class="btn-main">Отправить</button>
-							<div class="checkbox">
-								<label>
-									<input type="checkbox" required="required" checked="checked" />
-									<span>Согласие на обработку персональных данных</span>
-								</label>
-							</div>
+						<div class="thanks__stars">
+							<img src="img/stars_thanks.svg" alt="alt">
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-
-		<div id="map"></div>
 
 		<footer class="footer">
 			<div class="container">
@@ -241,36 +195,6 @@
 <script src="libs/easyzoom/easyzoom.js"></script> 
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
 <script src="js/common.js?ver=1.5"></script>
-<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-<script>
-	$(document).ready(function() {
-		ymaps.ready(init);
-
-		function init() {
-			var myMap = new ymaps.Map('map', {
-				center: [45.063158, 38.898723],
-				zoom: 16	
-			}, {
-				searchControlProvider: 'yandex#search'
-			});		
-
-
-			myPlacemark1 = new ymaps.Placemark([45.063158, 38.898723], {
-				balloonContent: '<p class="text-map">г. Краснодар, пр-д Майский, 18/10</p>'
-			}, {
-				iconLayout: 'default#image',
-				iconImageHref: 'img/pin.svg',
-				hideIconOnBalloonOpen: false,
-				iconImageSize: [40, 40],
-				iconImageOffset: [-20, -40],
-				balloonOffset: [ 0, -40 ]
-			});
-			myMap.controls.remove('searchControl');
-			myMap.behaviors.disable('scrollZoom');
-			myMap.geoObjects.add(myPlacemark1);
-		}
-	});
-</script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
